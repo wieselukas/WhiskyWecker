@@ -67,6 +67,8 @@
 
 extern const DIGITAL_IO_t DIGITAL_IO_1_1; 
 	
+extern const DIGITAL_IO_t DIGITAL_IO_1_0; 
+	
  
 #endif  /* DIGITAL_IO_EXTERN_H */
 

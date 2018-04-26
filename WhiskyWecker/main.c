@@ -40,6 +40,7 @@ void Interrupt0_Handler(void){
 
 	/* Toggle the LED*/
 	DIGITAL_IO_ToggleOutput(&DIGITAL_IO_1_1);
+	DIGITAL_IO_ToggleOutput(&DIGITAL_IO_1_0);
 
 	TIMER_Start(&TIMER_0);
 }

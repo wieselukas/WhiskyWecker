@@ -66,3 +66,15 @@ const DIGITAL_IO_t DIGITAL_IO_1_1 =
   .hwctrl = XMC_GPIO_HWCTRL_DISABLED
 };
 		
+const DIGITAL_IO_t DIGITAL_IO_1_0 =
+{
+  .gpio_port = XMC_GPIO_PORT1,
+  .gpio_pin = 0U,
+  .gpio_config = {
+    .mode = XMC_GPIO_MODE_OUTPUT_PUSH_PULL,
+    .output_level = XMC_GPIO_OUTPUT_LEVEL_LOW,
+
+  },
+  .hwctrl = XMC_GPIO_HWCTRL_DISABLED
+};
+		
