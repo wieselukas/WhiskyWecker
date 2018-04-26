@@ -1,3 +1,5 @@
 /Debug/
 /Dave/Generated/
 solver.log
+*.bin
+language.settings.xml
