@@ -39,9 +39,6 @@
   <nodes xsi:type="ApplicationModel:PortNode">
     <resource xsi:type="ResourceModel:Port" href="HW_RESOURCES/Port1/Port1_1.dd#/"/>
   </nodes>
-  <nodes xsi:type="ApplicationModel:AppNode">
-    <resource xsi:type="ResourceModel:App" href="APPS/DIGITAL_IO/v4_0_16/DIGITAL_IO_1.app#/"/>
-  </nodes>
   <connections xsi:type="ApplicationModel:NodeConnection" source="//@nodes.0" target="//@nodes.1"/>
   <connections xsi:type="ApplicationModel:NodeConnection" source="//@nodes.2" target="//@nodes.0"/>
   <connections xsi:type="ApplicationModel:NodeConnection" source="//@nodes.6" target="//@nodes.5"/>
@@ -67,6 +64,4 @@
   <hwConnections href="APPS/TIMER/v4_1_10/TIMER_0.app#//@connections.2"/>
   <hwConnections href="APPS/DIGITAL_IO/v4_0_16/DIGITAL_IO_0.app#//@connections.0"/>
   <hwConnections href="APPS/DIGITAL_IO/v4_0_16/DIGITAL_IO_0.app#//@connections.1"/>
-  <hwConnections href="APPS/DIGITAL_IO/v4_0_16/DIGITAL_IO_1.app#//@connections.0"/>
-  <hwConnections href="APPS/DIGITAL_IO/v4_0_16/DIGITAL_IO_1.app#//@connections.1"/>
 </ApplicationModel:ApplicationData>
